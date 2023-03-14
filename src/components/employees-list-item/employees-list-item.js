@@ -1,6 +1,5 @@
 import './employees-list-item.css';
 
-
 const EmployeesListItem = (props) => {
     const {name, salary, onDelete, onToggleProp, increase, rise} = props;
 
@@ -33,5 +32,6 @@ const EmployeesListItem = (props) => {
         </li>
     )
 }
+
 
 export default EmployeesListItem;

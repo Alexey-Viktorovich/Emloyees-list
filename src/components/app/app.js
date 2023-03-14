@@ -49,6 +49,7 @@ class App extends Component {
         })
     }
 
+
     onToggleProp = (id, prop) => {
 
         this.setState(({data}) => ({
@@ -89,8 +90,6 @@ class App extends Component {
     onFilterSelect = (filter) => {
         this.setState({filter});
     }
-
-
 
     render() {
         const {data, term, filter} = this.state;

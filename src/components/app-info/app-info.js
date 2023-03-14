@@ -11,4 +11,5 @@ const AppInfo = ({employees, increased}) => {
     )
 }
 
+
 export default AppInfo;

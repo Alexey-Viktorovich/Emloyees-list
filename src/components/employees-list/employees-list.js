@@ -17,7 +17,6 @@ const EmployeesList = ({data, onDelete, onToggleProp, onKeyDown}) => {
         )
     })
 
-
     return (
         <ul className="app-list list-group">
             {elements}

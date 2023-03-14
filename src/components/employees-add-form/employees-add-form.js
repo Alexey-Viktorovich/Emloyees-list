@@ -46,7 +46,6 @@ class EmployeesAddForm extends Component {
                 default: break;
         }
 
- 
         this.setState({formErrors: fieldValidationsErrors,
                         nameValid: nameValid,
                         salaryValid: salaryValid}, this.validateForm);

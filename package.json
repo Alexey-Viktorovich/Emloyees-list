@@ -1,5 +1,5 @@
 {
-  "homepage": "https://alexey-viktorovich.github.io/Employees-list/",
+  "homepage": "https://alexey-viktorovich.github.io/Employees-list",
   "name": "employees-list",
   "version": "0.1.0",
   "private": true,
@@ -13,7 +13,6 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
- 
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
