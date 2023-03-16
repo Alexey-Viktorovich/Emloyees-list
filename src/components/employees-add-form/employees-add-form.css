@@ -1,6 +1,6 @@
 .app-add-form {
     margin-top: 30px;
-    padding: 25px;
+    padding: 20px;
     background-color: #3d5a80;
     border-radius: 4px;
     box-shadow: 15px 15px 30px rgba(0,0,0, .15);
@@ -8,10 +8,52 @@
 }
 
 .add-form {
-    margin-top: 20px;
+    display: flex!important;
+    
 }
 
 .add-form input {
-    width: 350px;
+    max-width: 500px;
     margin-right: 20px;
 }
+
+@media screen and (max-width: 515px) {
+    .add-form{
+        position: relative;
+        flex-direction: column;
+    }
+
+    .add-form input {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+
+    .add-form button {
+        font-size: 15px;
+        max-width: 500px;
+    }
+
+    .app-add-form {
+        padding: 17px;
+    }
+
+    .app-add-form h3{
+        font-size: 22px;
+    }
+  }
+
+@media screen and (max-width: 415px) {
+    .app-add-form h3{
+        font-size: 20px;
+    }
+
+    .app-add-form {
+        padding: 15px;
+    }
+  }
+
+@media screen and (max-width: 350px) {
+    .app-add-form h3{
+        font-size: 18px;
+    }
+  }

@@ -6,3 +6,21 @@
     box-shadow: 15px 15px 30px rgba(0,0,0, .15);
     color: #fff;
 }
+
+@media screen and (max-width: 515px) {
+    .search-panel {
+        padding: 20px;
+    }
+  }
+
+@media screen and (max-width: 415px) {
+    .search-panel {
+        padding: 17px;
+    }
+  }
+
+@media screen and (max-width: 350px) {
+    .search-panel {
+        padding: 15px;
+    }
+  }

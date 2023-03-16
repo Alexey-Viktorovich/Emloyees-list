@@ -12,3 +12,16 @@ code {
     monospace;
 }
 
+@media screen and (max-width: 600px) {
+  body{
+    margin: 15px;
+    max-width: 600px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  body{
+    margin: 15px;
+    max-width: 320px;
+  }
+}

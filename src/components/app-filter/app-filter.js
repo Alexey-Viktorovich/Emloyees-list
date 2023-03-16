@@ -23,7 +23,7 @@ const AppFilter = (props) => {
     })
 
     return (
-        <div className="btn-group">
+        <div className="btn-groups">
             {buttons}
         </div>
     )

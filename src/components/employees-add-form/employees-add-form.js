@@ -67,7 +67,7 @@ class EmployeesAddForm extends Component {
                 <div className="panel panel-default">
                         <FormErrors formErrors={this.state.formErrors} />
                     </div>
-                <form className="add-form d-flex"
+                <form className="add-form"
                         onSubmit={this.handleSubmit}>
 
                     <input type="text"
@@ -87,7 +87,7 @@ class EmployeesAddForm extends Component {
                     <button type="submit"
                             className="btn btn-outline-light"
                             disabled={!this.state.formValid}
-                            onClick={() => {this.props.onAdd(name, salary)}}>Додати</button>
+                            onClick={(() => {this.props.onAdd(name, salary)})}>Додати</button>
                 </form>
             </div>
         )
